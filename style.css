@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Dancing Script', cursive;
+    display: block;
+    min-height:100vh;
+    width:100%;
+    background-image:  url(OIP.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    color:white;
+    font-size: 50px;
+}
+#st{
+    padding: 30px;
+}
+#wel{
+
+   text-align: center;
+}
+
+.calculator {
+    grid-column: 4;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(15, 162, 184, 0.907);
+    width: 400px;
+    height: 400px;
+    margin: 5px auto;
+    padding: auto;
+    display: grid;
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f5f5d8;
+    opacity: 1;
+    
+}
+.display{
+      display: grid;
+      place-items: center;
+      padding-bottom: 20px;
+
+}
+#myTextBox {
+   
+    width: 300px; /* Adjust the width as needed */
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.button {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.operator {
+    background-color: #575353;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border-width: 5px;
+
+}
+
+.number {
+    background-color:#575353;
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-width: 5px;
+   
+}
+#divide{
+    padding: 5px;
+}
+#dot{
+    padding: 5px;
+}
+
+#clear {
+  
+    background-color: #a81a1a;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-width: 5px;
+}
+
+#equals {
+  
+    background-color: #1c87c9;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-width: 5px;
+}
+#del{
+    
+    background-color: #a81a1a;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-width: 5px;
+}
+#open{
+    background-color: #1c87c9;
+    color: white; 
+    width: 50px;
+    height: 50px;
+    margin-right: 63px;
+    border-width: 5px;
+
+}
+
+
+
